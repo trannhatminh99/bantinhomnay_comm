@@ -9,7 +9,7 @@ function Home() {
 
 
 //     return <div/>;
-    return (
+    return 
         <div class="wrapper">
           <MetaTags>
             <title>Page 1</title>
@@ -19,7 +19,7 @@ function Home() {
           </MetaTags>
           <div class="content"> Some Content </div>
         </div>
-      )
+      
 }
 
 export default Home;
