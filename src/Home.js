@@ -10,7 +10,7 @@ function Home() {
 
 //     return <div/>;
     
-    var referrer = document.referrer;
+    var referrer = document.referrer || null;;
          console.log(referrer);
     return 
         <div class="wrapper">
