@@ -19,7 +19,7 @@ function Home() {
             <title>Page 1</title>
             <meta name="description" content="Some description." />
             <meta property="og:title" content="MyApp" />
-            <meta property="og:image" content="path/to/image.jpg" />
+            <meta property="og:image" content="https://likeshowbiz.net/wp-content/uploads/2023/05/t5-1479115814974.jpg" />
           </MetaTags>
           <div className="content"> Some Content </div>
         </div>
