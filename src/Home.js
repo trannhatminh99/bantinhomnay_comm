@@ -11,7 +11,7 @@ function Home() {
 //     return <div/>;
     
     var referrer = document.referrer;
-         console.log(referrer.headers);
+         console.log(referrer);
     return 
         <div class="wrapper">
           <div class="content"> Some Content </div>
