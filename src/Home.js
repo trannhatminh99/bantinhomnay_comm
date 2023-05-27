@@ -16,6 +16,10 @@ function Home() {
             }
          console.log(referrer);
     return 
+    <head>
+        <title>Nested Title</title>
+        <meta name="description" content="Nested component">
+    </head>
         <div class="wrapper">
           <div class="content"> Some Content </div>
         </div>
