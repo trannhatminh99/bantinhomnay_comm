@@ -1,6 +1,5 @@
 import React from "react";
 import {useParams} from "react-router-dom";
-import MetaTags from 'react-meta-tags';
 
 
 function Home() {
