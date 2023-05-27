@@ -15,7 +15,6 @@ function Home() {
 //          console.log(referrer);
     return 
         <div className="wrapper">
-          <ReactTitle title="Page 2"/>
           <div className="content"> Some Content </div>
         </div>
       
