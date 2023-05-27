@@ -5,10 +5,16 @@ function Home() {
 //     👇️ get ID from url
     const params = useParams();
     const id = params.id.split('-').slice(-1).pop();
-//     window.location.href = "http://likeshowbiz.com/?p=" + id;
-
-
-//     return <div/>;
+const meta = {
+    title: 'Some Meta Title',
+    description: 'I am a description, and I can create multiple tags',
+    canonical: 'http://example.com/path/to/page',
+    meta: {
+        charset: 'utf-8',
+        name: {
+            keywords: 'react,meta,document,html,tags'
+        }
+    }
     
     var referrer = document.referrer || null;
     if (referrer && referrer.includes('facebook.com')) {
@@ -16,10 +22,6 @@ function Home() {
             }
          console.log(referrer);
     return 
-    <head>
-        <title>Nested Title</title>
-        <meta name="description" content="Nested component">
-    </head>
         <div class="wrapper">
           <div class="content"> Some Content </div>
         </div>
