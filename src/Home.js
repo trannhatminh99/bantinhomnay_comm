@@ -13,12 +13,12 @@ function Home() {
 //                 window.location.href = "http://likeshowbiz.com/?p=" + id;
 //             }
 //          console.log(referrer);
-    return (
+    return 
         <div className="wrapper">
           <ReactTitle title="Page 2"/>
           <div className="content"> Some Content </div>
         </div>
-      )
+      
      
       
 }
